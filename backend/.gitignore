@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# macOS / Linux system files
+.DS_Store
+.idea/
+
+# Logs
+*.log
+
+# Python cache
+*.pyo
+*.pyd
+*.pyc
+
+# Test results
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# mypy / coverage / pytest
+.mypy_cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database files (if any local test DBs)
+*.sqlite3
+*.db
+
+# Uvicorn reload
+*.pid
+
+# Docker / containers (optional)
+*.tar
+*.img
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
